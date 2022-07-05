@@ -1,7 +1,7 @@
 numpy
 Flask
+-e .
 gunicorn
 sklearn
 pandas
- # will help to install your packages
 

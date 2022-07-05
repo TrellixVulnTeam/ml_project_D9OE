@@ -9,8 +9,8 @@ DESRCIPTION="This is a first  Machine Learning Project"
 
 REQUIREMENT_FILE_NAME="requirements.txt"
 
-HYPHEN_E_DOT = "-e ."
 
+HYPHEN_E_DOT = "-e ."
 
 def get_requirements_list() -> List[str]:
     """
@@ -23,7 +23,7 @@ def get_requirements_list() -> List[str]:
         requirement_list = requirement_file.readlines()
         requirement_list = [requirement_name.replace("\n", "") for requirement_name in requirement_list]
         if HYPHEN_E_DOT in requirement_list:
-            requirement_list.remove(HYPHEN_E_DOT)  # using becuse we have used find_packages which is doing the same thing
+            requirement_list.remove(HYPHEN_E_DOT)
         return requirement_list
 
 
