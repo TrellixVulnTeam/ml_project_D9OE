@@ -1,5 +1,4 @@
 import logging
-from tkinter import E
 from housing.entity.config_entity import DataIngestionConfig
 from housing.entity.artifact_entity import DataIngestionArtifact
 import sys,os
