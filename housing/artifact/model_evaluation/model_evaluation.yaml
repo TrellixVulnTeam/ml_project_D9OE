@@ -1,2 +1,7 @@
 best_model:
-  model_path: /Users/abhisheknagpal/Documents/My_Projects/ml_project/housing/artifact/model_trainer/2022-07-11-20-22-55/trained_model/model.pkl
+  model_path: /Users/abhisheknagpal/Documents/My_Projects/ml_project/housing/artifact/model_trainer/2022-07-15-19-29-42/trained_model/model.pkl
+history:
+  2022-07-15-19-28-55:
+    model_path: /Users/abhisheknagpal/Documents/My_Projects/ml_project/housing/artifact/model_trainer/2022-07-11-20-22-55/trained_model/model.pkl
+  2022-07-15-19-29-42:
+    model_path: /Users/abhisheknagpal/Documents/My_Projects/ml_project/housing/artifact/model_trainer/2022-07-15-19-28-55/trained_model/model.pkl
